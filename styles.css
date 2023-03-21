@@ -1,4 +1,328 @@
+/*===== GOOGLE FONTS =====*/
+@import url(https://fonts.google.com/specimen/Rubik?query=rubik:wght@400;600;700&display=swap);
+.nav__item{
+    display: inline;
+}
+.nav__list{
+    
+    list-style-type: none;
+}
 
-body{
-     background-color: azure;
+.nav__link1{
+    /* logo */
+    position: absolute;
+    width: 148px;
+    height: 36.23px;
+    left: 300px;
+    top: 50px;
+
+}
+
+.nav__link2{
+    /* About */
+
+
+    position: absolute;
+    width: 46px;
+    height: 19px;
+    left: 600px;
+    top: 58.62px;
+
+    text-decoration: none;
+    color: black;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+}
+
+.nav__link3{
+    /* Features */
+    position: absolute;
+    width: 93px;
+    height: 19px;
+    left: 700px;
+    top: 58.62px;
+
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.nav__link4{
+/* Pricing */
+
+
+position: absolute;
+width: 52px;
+height: 19px;
+left: 800px;
+top: 58.62px;
+
+text-decoration: none;
+color: black;
+
+
+}
+
+
+.nav__link5{
+/* Testimonials */
+
+
+position: absolute;
+width: 52px;
+height: 19px;
+left: 900px;
+top: 58.62px;
+
+text-decoration: none;
+color: black;
+
+
+}
+
+.nav__link6{
+/* Help */
+
+
+position: absolute;
+width: 34px;
+height: 19px;
+left: 1030px;
+top: 58.62px;
+
+text-decoration: none;
+color: black;
+
+
+
+}
+
+.sign__in{
+    /* Sign In */
+
+
+    position: absolute;
+    width: 53px;
+    height: 19px;
+    left: 1300px;
+    top: 58.62px;
+
+    text-decoration: none;
+    color: black;
+}
+
+.sign__up{
+    position: absolute;
+    width: 150px;
+    height: 45px;
+    left: 1600px;
+    top: 45.62px;
+    
+    border: 1px solid #F53855;
+    border-radius: 50px;
+    color: #F53855;
+}
+
+.h1__text{
+    /* Want anything to be easy with LaslesVPN. */
+    position: absolute;
+    width: 555px;
+    height: 140px;
+    left: 300px;
+    top: 211px;
+
+    text-decoration: none;
+}
+
+.p1__text{
+    /* Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us. */
+
+
+    position: absolute;
+    width: 555px;
+    height: 60px;
+    left: 300px;
+    top: 366.77px;
+
+}
+
+.button__getstarted{
+    position: absolute;
+    border-radius: 10px;
+    width: 250px;
+    height: 60px;
+    left: 300px;
+    top: 476.77px;
+
+    background: #F54747;
+    color: white;
+}
+
+.main__img{
+    /* Illustration 1 */
+
+
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    left: 1000px;
+    top: 179.11px;
+   
+}
+
+/* DATA RECTANGLE */
+
+.data__rectangle{
+    border: 1px solid black;
+    position: absolute;
+    width: 1300px;
+    height: 200px;
+    left: 300px;
+    top: 664.55px;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+
+.users{
+    text-decoration: none;
+    list-style-type: none;
+
+    position: absolute;
+    width: 53px;
+    height: 65px;
+    left: 250px;
+    top: 60px;
+}
+
+.locations{
+    text-decoration: none;
+    list-style-type: none;
+
+    position: absolute;
+    width: 53px;
+    height: 65px;
+    left: 650px;
+    top: 60px;
+}
+
+
+.servers{
+    text-decoration: none;
+    list-style-type: none;
+
+    position: absolute;
+    width: 53px;
+    height: 65px;
+    left: 1050px;
+    top: 60px;
+
+}
+
+.icon__user{
+    /* Icon/user */
+
+
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 200px;
+    top: 70px;
+}
+
+.icon__location{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 600px;
+    top: 70px;
+}
+
+.icon__servers{
+    /* Icon/Server */
+
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 1000px;
+    top: 70px;
+}
+
+
+/* MAIN IMAGE 2 */
+.main__img2{
+    /* Illustration 2 */
+
+
+    position: absolute;
+    width: 508.12px;
+    height: 414.71px;
+    left: 300px;
+    top: 960.38px;
+}
+
+.main__text2{
+    /* We Provide Many Features You Can Use */
+
+
+    position: absolute;
+    width: 383.41px;
+    height: 100px;
+    left: 1100px;
+    top: 1015px;
+}
+
+.main__p2{
+    /* You can explore the features that we provide with fun and have their own functions each feature. */
+
+    position: absolute;
+    width: 427.88px;
+    height: 60px;
+    left: 1100px;
+    top: 1134.55px;
+}
+
+.main__list2{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.list1{
+    /* Powerfull online protection. */
+    position: absolute;
+    left: 1100px;
+    top: 1214.55px;
+}
+
+.list2{
+    /* Internet without borders. */
+    position: absolute;
+    left: 1100px;
+    top: 1259.55px;
+}
+
+.list3{
+    /* Supercharged VPN */
+
+
+    position: absolute;
+    left: 1100px;
+    top: 1304.55px;
+}
+
+.list4{
+    /* No specific time limits. */
+
+
+    position: absolute;
+    left: 1100px;
+    top: 1349.55px;
 }
