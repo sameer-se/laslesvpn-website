@@ -630,9 +630,9 @@ border-radius: 10px;
 
 .box1__tittle{
     position: absolute;
-    width: 82px;
+    width: 200px;
     height: 30px;
-    left: 120px;
+    left: 60px;
     top: 280px;
     
     font-style: normal;
@@ -650,7 +650,7 @@ border-radius: 10px;
 .main__list2{
     list-style-type: none;
     position: absolute;
-    width: 137px;
+    width: 200px;
     height: 30px;
     left: 100px;
     top: 350px;
@@ -686,14 +686,18 @@ border-radius: 10px;
     margin-bottom: 16px;
 }
 .t4{
+    margin-bottom: 15px;
+}
+.t5{
     margin-bottom: 10px;
 }
 
+
 .cost{
     position: absolute;
-    width: 54px;
+    width: 100px;
     height: 30px;
-    left: 130px;
+    left: 110px;
     top: 600px;
     font-family: 'Rubik';
     font-style: normal;
@@ -705,6 +709,17 @@ border-radius: 10px;
     text-align: center;
     
     color: #0B132A;
+}
+
+.mo{
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #4F5665;
+    
 }
 
 .select{
@@ -728,5 +743,28 @@ border-radius: 10px;
 
     background: none;
     
+}
 
+.box__2{
+    position: absolute;
+    width: 330px;
+    height: 760px;
+    left: 850px;
+    top: 1776.55px;
+    
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.box__3{
+    position: absolute;
+    width: 330px;
+    height: 760px;
+    left: 1400px;
+    top: 1776.55px;
+    
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
 }
