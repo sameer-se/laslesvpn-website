@@ -5,766 +5,166 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
-}
-
-.nav__item{
-    display: inline;
-}
-.nav__list{
-    
     list-style-type: none;
 }
 
-.nav__link1{
-    /* logo */
-    position: absolute;
-    width: 148px;
-    height: 36.23px;
-    left: 300px;
-    top: 50px;
+header{
+    margin-left: 200px;
+    display: flex;
+    margin-right: 200px;
 
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
-.nav__link2{
-    /* About */
+.nav__list{
+    list-style-type: none;
+}
+.nav__logo{
+    margin-right: 15rem;
+}
+.nav__item{
+    display: inline;
+}
+.nav__link{
+    text-decoration-line: none;
+    margin-right: 3rem;
 
-
-    position: absolute;
     width: 46px;
     height: 19px;
-    left: 600px;
-    top: 58.62px;
-
-    text-decoration: none;
-    color: black;
 
     font-family: 'Rubik';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-
-}
-
-.nav__link3{
-    /* Features */
-    position: absolute;
-    width: 93px;
-    height: 19px;
-    left: 700px;
-    top: 58.62px;
-
-    text-decoration: none;
-    color: black;
+    /* identical to box height */
     
-
+    
+    color: #4F5665;
+    
 }
-
-.nav__link4{
-/* Pricing */
-
-
-position: absolute;
-width: 52px;
-height: 19px;
-left: 800px;
-top: 58.62px;
-
-text-decoration: none;
-color: black;
-
-
-}
-
-
-.nav__link5{
-/* Testimonials */
-
-
-position: absolute;
-width: 52px;
-height: 19px;
-left: 900px;
-top: 58.62px;
-
-text-decoration: none;
-color: black;
-
-
-}
-
-.nav__link6{
-/* Help */
-
-
-position: absolute;
-width: 34px;
-height: 19px;
-left: 1050px;
-top: 58.62px;
-
-text-decoration: none;
-color: black;
-
-
-
-}
-
 .sign__in{
-    /* Sign In */
+    margin-left: 10rem;
+    text-decoration-line: none;
 
-
-    position: absolute;
     width: 53px;
     height: 19px;
-    left: 1300px;
-    top: 58.62px;
 
-    text-decoration: none;
-    color: black;
-}
-
-.sign__up{
-    position: absolute;
-    width: 150px;
-    height: 45px;
-    left: 1600px;
-    top: 45.62px;
-    
-    border: 1px solid #F53855;
-    border-radius: 50px;
-    color: #F53855;
-
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */
+    
+    
+    color: #0B132A;
+    
+}
+.sign__up{
+    margin-left: 6rem;
 
-    background: none;
+    width: 150px;
+    height: 45px;
 
+    border-radius: 50px;
+    border: 1px solid #F53855;
 
+    background-color: white;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #F53855;
+}
+
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+}
+
+.container__main{
+    display: flex;
+    border: 1px solid black;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.main__box1{
+    display: flex;
+    border: 1px solid red;
+    flex-direction: column;
+    margin: 10px;
+    
+}
+
+.main__box2{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    
+    margin-right: 50px;
 }
 
 .h1__text{
-    /* Want anything to be easy with LaslesVPN. */
-    position: absolute;
-    width: auto;
-    height: 140px;
-    left: 300px;
-    top: 211px;
+/* Want anything to be easy with LaslesVPN. */
 
-    text-decoration: none;
-
-    font-style: normal;
-    font-size: 30px;
-    line-height: 70px;
-    /* or 140% */
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 70px;
+/* or 140% */
 
 
-    color: #0B132A;
+color: #0B132A;
+
 }
 
 .p1__text{
-    /* Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us. */
+/* Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us. */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
 
 
-    position: absolute;
-    width: 555px;
-    height: 60px;
-    left: 300px;
-    top: 366.77px;
+color: #4F5665;
 
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    /* or 188% */
-
-
-    color: #4F5665;
-
-    padding-top: 10px;
+margin-top: 30px;
 
 }
 
 .button__getstarted{
-    position: absolute;
-    border-radius: 10px;
+    margin-top: 50px;
+
     width: 250px;
     height: 60px;
-    left: 300px;
-    top: 476.77px;
-    border-color: white;
-    padding: 0px;
-    border: 0px;
 
     background: #F54747;
-    
+    border-radius: 10px;
+    border: none;
+
+    font-family: 'Rubik';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 25px;
     /* identical to box height, or 156% */
-
+    
+    
     color: #FFFFFF;
-}
-
-.main__img{
-    /* Illustration 1 */
-
-
-    position: absolute;
-    width: 600px;
-    height: 300px;
-    left: 1000px;
-    top: 179.11px;
-   
-}
-
-/* DATA RECTANGLE */
-
-.data__rectangle{
-    border: 1px solid white;
-    position: absolute;
-    width: 1300px;
-    height: 200px;
-    left: 300px;
-    top: 664.55px;
-
-    background: #F8F8F8;
-    border-radius: 10px;
-
-}
-
-
-.users{
-    text-decoration: none;
-    list-style-type: none;
-
-    position: absolute;
-    width: 53px;
-    height: 65px;
-    left: 280px;
-    top: 70px;
-
-}
-
-.locations{
-    text-decoration: none;
-    list-style-type: none;
-
-    position: absolute;
-    width: 53px;
-    height: 65px;
-    left: 680px;
-    top: 70px;
-}
-
-
-.servers{
-    text-decoration: none;
-    list-style-type: none;
-
-    position: absolute;
-    width: 53px;
-    height: 65px;
-    left: 1080px;
-    top: 70px;
-
-
-}
-
-
- /* Icon/user */
-
- .icon__user{
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    left: 200px;
-    top: 70px;
-}
-.user__count{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    /* identical to box height, or 120% */
-
-
-    color: #0B132A;
-}
-.text__users{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height, or 150% */
-    
-    
-    color: #4F5665;   
-}
-
-/* Icon/Location */
-.icon__location{
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    left: 600px;
-    top: 70px;
-}
-.location__count{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    /* identical to box height, or 120% */
-    
-    
-    color: #0B132A;
-    
-}
-
-.text__location{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height, or 150% */
-    
-    
-    color: #4F5665;
-    
-}
-
-/* Icon/Server */
-
-.icon__servers{
     
 
-    position: absolute;
-    width: 55px;
-    height: 55px;
-    left: 1000px;
-    top: 70px;
-}
-
-.servers__count{
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 30px;
-    /* identical to box height, or 120% */
-    
-    
-    color: #0B132A;
-    
-}
-
-.text__servers{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    /* identical to box height, or 150% */
-    
-    
-    color: #4F5665;
-    
-}
-
-
-/* MAIN IMAGE 2 */
-.main__img2{
-    /* Illustration 2 */
-
-
-    position: absolute;
-    width: 508.12px;
-    height: 414.71px;
-    left: 300px;
-    top: 960.38px;
-}
-
-.main__text2{
-    /* We Provide Many Features You Can Use */
-
-
-    position: absolute;
-    width: 500px;
-    height: 100px;
-    left: 1100px;
-    top: 1015px;
-
-    font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 50px;
-    /* or 143% */
-    
-    
-    color: #0B132A;
-
-}
-
-.main__p2{
-    /* You can explore the features that we provide with fun and have their own functions each feature. */
-
-    position: absolute;
-    width: 427.88px;
-    height: 60px;
-    left: 1100px;
-    top: 1134.55px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    /* or 188% */
-
-
-    color: #4F5665;
-
-}
-
-/* TEXT LIST */
-
-.main__list{
-    list-style-type: none;
-}
-
-.list1{
-    /* Powerfull online protection. */
-    position: absolute;
-    left: 1130px;
-    top: 1214.55px;
-    width: 250px;
-    margin-bottom: 0px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    /* identical to box height, or 214% */
-    
-    
-    color: #4F5665;
-    
-}
-
-.list2{
-    /* Internet without borders. */
-    position: absolute;
-    left: 1130px;
-    top: 1259.55px;
-    width: 200px;
-    margin-bottom: 0px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    /* identical to box height, or 214% */
-    
-    
-    color: #4F5665;
-    
-    
-}
-
-.list3{
-    /* Supercharged VPN */
-
-
-    position: absolute;
-    left: 1130px;
-    top: 1304.55px;
-    width: 200px;
-    margin-bottom: 0px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    /* identical to box height, or 214% */
-    
-    
-    color: #4F5665;
-    
-}
-
-.list4{
-    /* No specific time limits. */
-
-
-    position: absolute;
-    left: 1130px;
-    top: 1349.55px;
-    width: 200px;
-    margin-bottom: 0px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    /* identical to box height, or 214% */
-    
-    
-    color: #4F5665;
-    
-}
-
-/* ICON LISTS */
-
-.tick1{
-    position: absolute;
-    left: 1010px;
-    top: 1214.55px;
-    width: 200px;
-    margin-bottom: 0px;
-
-}
-
-.tick2{
-    position: absolute;
-    left: 1010px;
-    top: 1259.55px;
-    width: 200px;
-    margin-bottom: 0px;
-    
-}
-
-.tick3{
-    /* Supercharged VPN */
-
-
-    position: absolute;
-    left: 1010px;
-    top: 1304.55px;
-    width: 200px;
-    margin-bottom: 0px;
-}
-
-.tick4{
-    position: absolute;
-    left: 1010px;
-    top: 1349.55px;
-    width: 200px;
-    margin-bottom: 0px;
-
-}
-
-/* MAIN PART 2 */
-
-.mainbody2{
-background-color: #FFFFFF;
-
-}
-
-.mainbody2__text{
-    position: absolute;
-    width: 383.41px;
-    height: 50px;
-    top: 1586.55px;
-    left: 800px;
-    
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 35px;
-    line-height: 50px;
-    /* identical to box height, or 143% */
-    
-    text-align: center;
-    
-    color: #0B132A;   
-}
-
-.main2__p2{
-    position: absolute;
-    width: 555px;
-    height: 60px;
-    left: 730px;
-    top: 1656.55px;
-
-    
-    
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    /* or 188% */
-    
-    text-align: center;
-    
-    color: #4F5665;
-    
-}
-
-.box__1{
-position: absolute;
-width: 330px;
-height: 760px;
-left: 300px;
-top: 1776.55px;
-
-background: #FFFFFF;
-border: 2px solid #DDDDDD;
-border-radius: 10px;
-
-}
-
-.icon__box1{
-    position: absolute;
-    width: 144.9px;
-    height: 165.37px;
-    left: 90px;
-    top: 80px;
-
-    background: none;
-    
-}
-
-.box1__tittle{
-    position: absolute;
-    width: 200px;
-    height: 30px;
-    left: 60px;
-    top: 280px;
-    
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    /* identical to box height, or 167% */
-    
-    text-align: center;
-    
-    color: #0B132A;
-    background: none;
-}
-
-.main__list2{
-    list-style-type: none;
-    position: absolute;
-    width: 200px;
-    height: 30px;
-    left: 100px;
-    top: 350px;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 30px;
-    /* identical to box height, or 214% */
-
-
-    color: #4F5665;
-    background: none;
-}
-
-.icon__tick{
-    list-style-type: none;
-    position: absolute;
-    width: 137px;
-    height: 30px;
-    left: 80px;
-    top: 360px;
-
-}
-
-.t1{
-    margin-bottom: 16px;
-}
-.t2{
-    margin-bottom: 16px;
-}
-.t3{
-    margin-bottom: 16px;
-}
-.t4{
-    margin-bottom: 15px;
-}
-.t5{
-    margin-bottom: 10px;
-}
-
-
-.cost{
-    position: absolute;
-    width: 100px;
-    height: 30px;
-    left: 110px;
-    top: 600px;
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 25px;
-    line-height: 30px;
-    /* identical to box height, or 120% */
-    
-    text-align: center;
-    
-    color: #0B132A;
-}
-
-.mo{
-    font-size: 25px;
-    line-height: 30px;
-    /* identical to box height, or 120% */
-    
-    text-align: center;
-    
-    color: #4F5665;
-    
-}
-
-.select{
-    position: absolute;
-    width: 177.88px;
-    height: 45px;
-    left: 75px;
-    top: 650px;
-    
-    border: 2px solid #F53838;
-    border-radius: 50px;
-    
-    font-family: 'Rubik';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 19px;
-    /* identical to box height */
-    
-    color: #F53838;
-
-    background: none;
-    
-}
-
-.box__2{
-    position: absolute;
-    width: 330px;
-    height: 760px;
-    left: 850px;
-    top: 1776.55px;
-    
-    background: #FFFFFF;
-    border: 2px solid #DDDDDD;
-    border-radius: 10px;
-}
-
-.box__3{
-    position: absolute;
-    width: 330px;
-    height: 760px;
-    left: 1400px;
-    top: 1776.55px;
-    
-    background: #FFFFFF;
-    border: 2px solid #DDDDDD;
-    border-radius: 10px;
 }
