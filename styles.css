@@ -10,26 +10,29 @@
 
 header{
     margin-left: 200px;
-    display: flex;
     margin-right: 200px;
 
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
-.nav__list{
-    list-style-type: none;
+nav{
+    display: flex;
+    justify-content: space-between;
 }
 .nav__logo{
-    margin-right: 15rem;
+    align-items: center;
+}
+.nav__list{
+   display: flex;
+   gap: 2rem;
+   align-items: center;
 }
 .nav__item{
-    display: inline;
+    align-items: center;
 }
 .nav__link{
     text-decoration-line: none;
-    margin-right: 3rem;
-
     width: 46px;
     height: 19px;
 
@@ -40,12 +43,21 @@ header{
     line-height: 19px;
     /* identical to box height */
     
-    
     color: #4F5665;
+
+    text-align: center;
     
 }
+
+.button__list{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+
+}
+
+
 .sign__in{
-    margin-left: 10rem;
     text-decoration-line: none;
 
     width: 53px;
@@ -58,13 +70,10 @@ header{
     line-height: 19px;
     /* identical to box height */
     
-    
     color: #0B132A;
-    
 }
-.sign__up{
-    margin-left: 6rem;
 
+.sign__up{
     width: 150px;
     height: 45px;
 
@@ -82,6 +91,7 @@ header{
     
     
     color: #F53855;
+
 }
 
 main{
@@ -92,41 +102,31 @@ main{
 
 .container__main{
     display: flex;
-    border: 1px solid black;
     flex-direction: row;
     justify-content: space-between;
 
+    flex-wrap: wrap;
 }
 
 .main__box1{
     display: flex;
-    border: 1px solid red;
     flex-direction: column;
-    margin: 10px;
-    
 }
 
 .main__box2{
     display: flex;
     justify-content: space-between;
-    border: 1px solid red;
-    
-    margin-right: 50px;
 }
 
-.h1__text{
-/* Want anything to be easy with LaslesVPN. */
+h1{
+    /* Want anything to be easy with LaslesVPN. */
 
-font-family: 'Rubik';
-font-style: normal;
-font-weight: 500;
-font-size: 36px;
-line-height: 70px;
-/* or 140% */
-
-
-color: #0B132A;
-
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    /* or 140% */
+    color: #0B132A;
 }
 
 .p1__text{
@@ -139,11 +139,9 @@ font-size: 16px;
 line-height: 30px;
 /* or 188% */
 
-
 color: #4F5665;
 
 margin-top: 30px;
-
 }
 
 .button__getstarted{
@@ -162,9 +160,189 @@ margin-top: 30px;
     font-size: 16px;
     line-height: 25px;
     /* identical to box height, or 156% */
-    
-    
+
     color: #FFFFFF;
+}
+
+.data__rectangle{
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #FBFBFB;
+
+    flex-wrap: wrap;
+
+}
+
+.data__box1{
+
+    display: flex;
+    flex-direction: row;
+    border-right: 2px solid black;
+
+    width: 300px;
+    
+}
+.data__box2{
+
+    display: flex;
+    flex-direction: row;
+    border-right: 2px solid black;
+
+    width: 300px;
+    
+}
+.data__box3{
+
+    display: flex;
+    flex-direction: row;
+
+    width: 300px;
+}
+
+.icon__user{
+    margin-right: 1rem;
+}
+.user__count{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+    
+    
+    color: #0B132A;
+    
+}
+.text__user{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #4F5665;
+
+}
+
+.icon__location{
+    margin-right: 1rem;
+}
+.location__count{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+    
+    
+    color: #0B132A;
+    
+}
+.text__locations{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #4F5665;
+
+}
+
+.icon__servers{
+    margin-right: 1rem;
+}
+.servers__count{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+    
+    
+    color: #0B132A;
+    
+}
+.text__servers{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    
+    
+    color: #4F5665;
+
+}
+
+/* MAIN BODY 2 */
+
+.main__body1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.main__text2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    /* or 143% */
+    
+    
+    color: #0B132A;
+}
+.main__p2{
+    margin-top: 20px;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 188% */
+    
+    
+    color: #4F5665;
+    
+    
+}
+
+.main__list{
+    margin-top: 20px;
+}
+.rounded__tick{
+    margin-right: 4px;
     
 
+}
+.list1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    /* identical to box height, or 214% */
+    
+    color: #4F5665;
+    display: flex;
+    align-items: center;
+    
 }
