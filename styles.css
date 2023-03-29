@@ -9,8 +9,8 @@
 }
 
 header{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10rem;
+    margin-right: 10rem;
 
     margin-top: 50px;
     margin-bottom: 50px;
@@ -51,7 +51,7 @@ nav{
 
 .button__list{
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     align-items: center;
 
 }
@@ -65,9 +65,8 @@ nav{
 
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 16px;
-    line-height: 19px;
     /* identical to box height */
     
     color: #0B132A;
@@ -95,8 +94,8 @@ nav{
 }
 
 main{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-top: 100px;
 }
 
@@ -118,18 +117,21 @@ main{
     justify-content: space-between;
 }
 
-h1{
+h1,h2,h3{
     /* Want anything to be easy with LaslesVPN. */
 
     font-family: 'Rubik';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 50px;
     /* or 140% */
     color: #0B132A;
 }
+span{
+    font-weight: 900;
+}
 
-.p1__text{
+p{
 /* Provide a network for all your needs with ease and fun using LaslesVPN discover interesting features from us. */
 
 font-family: 'Rubik';
@@ -141,7 +143,7 @@ line-height: 30px;
 
 color: #4F5665;
 
-margin-top: 30px;
+margin-top: 10px;
 }
 
 .button__getstarted{
@@ -172,7 +174,7 @@ margin-top: 30px;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
 
     background-color: #FBFBFB;
 
@@ -186,7 +188,7 @@ margin-top: 30px;
     flex-direction: row;
     border-right: 2px solid black;
 
-    width: 300px;
+    width: 20rem;
     
 }
 .data__box2{
@@ -195,7 +197,7 @@ margin-top: 30px;
     flex-direction: row;
     border-right: 2px solid black;
 
-    width: 300px;
+    width: 20rem;
     
 }
 .data__box3{
@@ -203,7 +205,7 @@ margin-top: 30px;
     display: flex;
     flex-direction: row;
 
-    width: 300px;
+    width: 20rem;
 }
 
 .icon__user{
@@ -344,5 +346,143 @@ margin-top: 30px;
     color: #4F5665;
     display: flex;
     align-items: center;
+    
+}
+.mainbody2{
+    padding-top: 100px;
+    background: #F8F8F8;
+    border: 4px solid white;
+}
+.mainbody2__text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 50px;
+    
+}
+.all__boxs{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content: center;
+
+    flex-wrap: wrap;
+}
+
+.box__1{
+    height: 45rem;
+    width: 20rem;
+    padding-top: 60px;
+    
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.box__2{
+    height: 45rem;
+    width: 20rem;
+    padding-top: 60px;
+    
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.box__3{
+    height: 45rem;
+    width: 20rem;
+    padding-top: 60px;
+    
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.plan__lists{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    /* identical to box height, or 167% */
+
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+.main__list2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    
+    
+    color: #4F5665;
+
+    margin-bottom: 20px;
+    
+    height: 10rem;
+}
+.cost{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #0B132A;
+    margin-top: 45px;
+}
+.mo{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+    
+    text-align: center;
+    
+    color: #4F5665;
+    
+    
+}
+
+.select{
+    margin-top: 15px;
+    width: 177.88px;
+    height: 45px;
+    border: 2px solid #F53838;
+    border-radius: 50px;
+    background: white;
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #F53838;
     
 }
