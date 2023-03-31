@@ -17,19 +17,28 @@
                     <!-- NAV LOGO -->
                     <a href="#" ><img class="nav__logo" src="./assets/Logo.png" alt="logo"></a>
                 </div>
-                <ul class="nav__list">
+                <ul id="sidebar" class="nav__list">
                     <!-- NAV LISTS -->
                     <li class="nav__item"><a href="#" class="nav__link">About</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Features</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Pricing</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Testimonials</a></li>
                     <li class="nav__item"><a href="#" class="nav__link">Help</a></li>
+                    <div class="button__lists">
+                        <!-- SIGN IN -->
+                        <a href="#" class="sign__in">Sign In</a>
+                        <!-- SIGN UP -->
+                        <a href="#"><button class="sign__up">Sign Up</button></a>
+                    </div>
                 </ul>
                 <div class="button__list">
                     <!-- SIGN IN -->
                     <a href="#" class="sign__in">Sign In</a>
                     <!-- SIGN UP -->
                     <a href="#"><button class="sign__up">Sign Up</button></a>
+                </div>
+                <div class="menu__icon" onclick="showSidebar()">
+                    <button><i class='bx bx-menu'></i></button>
                 </div>
             </nav>
         </header>
@@ -47,9 +56,7 @@
                             </div>
                     </div>
                     <div class="main__box2">
-                            <div class="main__img">
-                                <img src="./assets/Illustration 1.png" alt="main_img" width="576px" height="360">
-                            </div>
+                            <img src="./assets/Illustration 1.png" alt="main_img">
                     </div>
                 </div>
                 <div class="data__rectangle">
@@ -99,7 +106,7 @@
                 <div class="main__body1">
                     <!-- MAIN IMAGE 2 -->
                     <div class="main__img2">
-                        <img src="./assets/Illustration 2.png" alt="main__img2" width="576px" height="470px">
+                        <img src="./assets/Illustration 2.png" alt="main__img2">
                     </div>
                     <div class="mainbox__1">
                         <!-- MAIN TEXT 2 -->
@@ -229,12 +236,13 @@
                         <p>“This is very unusual for my business that currently requires a virtual private network that has high security.”. </p>
                     </div>
                 </div>
-                <div class="review__boxnav">
+                <!-- REVIEW TOGGLE BUTTONS -->
+                <!-- <div class="review__boxnav">
                         <div class="nav__btn">
                             <button><i class='bx bx-left-arrow-alt'></i></button>
                             <button><i class='bx bx-right-arrow-alt'></i></button>
                         </div>
-                </div>
+                </div> -->
             </div>
         </main>
         <!-- MAIN BODY END -->
@@ -294,5 +302,7 @@
             </div>
 
         </footer>
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
 </body>
 </html>
