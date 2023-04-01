@@ -28,11 +28,13 @@ nav {
   height: 4rem;
   align-items: center;
 }
+.slide{
+  transition: .5s;
+}
 .nav__list {
   display: flex;
   gap: 3rem;
   align-items: center;
-  transition: .5s;
 }
 .nav__item {
   align-items: center;
@@ -145,23 +147,20 @@ nav {
   .menu__icon {
     display: block;
     padding-right: 20px;
-    transition: 0.5;
+
   }
-  sidebar{
-    transition: .5s;
-  }
+
   .nav__list {
     display: block;
     line-height: 50px;
     position: fixed;
     right: 0px;
-    top: 6rem;
+    top: 4rem;
     padding: 50px;
     background-color: #f53838;
     width: 80%;
     height: 100%;
     display: none; 
-
   }
 
   .nav__list.active{
@@ -675,7 +674,6 @@ p {
     .data__rectangle{
         width: 100%;
         height: auto;
-        gap: 2rem;
 
     }
     .data__box1{
@@ -710,6 +708,9 @@ p {
 
 } 
 @media (max-width:1200px){
+  header{
+    padding-top: 0rem;
+  }
 
   nav{
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
@@ -745,6 +746,13 @@ p {
   }
 }
 @media (max-width:576px){
+  header{
+    padding-top: 0rem;
+  }
+  .button__lists{
+    display: flex;
+    flex-direction: column;
+  }
   main{
     align-items: center;
   }
@@ -759,6 +767,8 @@ p {
     display: flex;
     flex-direction: column;
     margin-top: 0px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
   }
   .data__box2{
     padding-left: 15%;
@@ -914,6 +924,7 @@ p {
   padding-top: 100px;
   padding-right: 30px;
   padding-left: 30px;
+  gap: 20px;
 
   flex-wrap: wrap;
 }
